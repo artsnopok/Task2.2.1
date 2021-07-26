@@ -35,7 +35,7 @@ public class MainApp {
          System.out.println();
       }
 
-      System.out.println(userService.getUserByCar("KIA", 3).getFirstName());
+      System.out.println(userService.getUserByModelAndSeries("KIA", 3).getFirstName());
 
       context.close();
    }
